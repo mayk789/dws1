@@ -9,11 +9,24 @@ body{
     border: 3px double #FFCC66;
     background-color: #FFFFF0 ;
     padding: 15px;
+}
 
-
+ol{
+    list-style-type: upper-roman;
 }
 
 /* HEADINGS */
-h1, h2{
+h1, h2, h3{
     color: #000099;
+
+}
+
+/*Bold-face texts*/
+strong{
+    color: #009966;
+}
+
+/*Italics*/
+em{
+    color: #990066;
 }
