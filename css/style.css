@@ -1,8 +1,19 @@
+/* BODY */
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: #99CCFF;
+    foreground-color: #000033;
+}
+
+#info{
+    border: 3px double #FFCC66;
+    background-color: #FFFFF0 ;
+    padding: 15px;
+
+
+}
+
 /* HEADINGS */
 h1, h2{
     color: #000099;
-}
-/* BODY */
-body{
-    
 }
