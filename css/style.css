@@ -16,6 +16,7 @@ body{
     background-color: #FFFFF0 ;
     padding: 15px;
     margin: 20px auto;
+
 }
  /*List styling*/
 ol{
@@ -23,7 +24,7 @@ ol{
     list-style-position: inside;
 }
 
-/* HEADINGS */
+/* HEADINGS*/
 h1{
     color: #000099;
     font-family: 'Oleo Script', cursive;
@@ -31,13 +32,14 @@ h1{
     font-style: oblique;
     font-weight: 900;
     text-align: center;
+    border: groove;
+    border-radius: 15px 15px;
 }
-
 h2{
     color: #000099;
     text-align: center;
+    opacity: 0.75;
 }
-
 h3{
     color: #000099;
 }
@@ -57,11 +59,13 @@ p{
 
 }
 
+
 figcaption{
     width: 600px;
     line-height: 20px;
     margin: auto;
 }
+
 /*Styling links*/
 a:link{
     color: #0066FF;
@@ -76,11 +80,13 @@ a:visited{
 a:hover{
     color: #000000;
     text-decoration: none;
+    opacity: 0.5;
 }
 
 a:active{
     color: #FFFF00;
     text-decoration: none;
+    opacity: 0.5;
 }
 
 /*Bold-face texts*/
@@ -91,4 +97,9 @@ strong{
 /*Italics*/
 em{
     color: #990066;
+}
+
+/* Footer */
+footer{
+    text-align: justify;
 }
