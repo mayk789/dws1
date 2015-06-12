@@ -1,24 +1,86 @@
 /* BODY */
 body{
     font-family: Helvetica, sans-serif;
+    font-size: 16px;
     background-color: #99CCFF;
     foreground-color: #000033;
+}
+
+/* Web-based font*/
+@font-face {
+    font-family: 'Oleo Script', cursive;
 }
 
 #info{
     border: 3px double #FFCC66;
     background-color: #FFFFF0 ;
     padding: 15px;
+    margin: 20px auto;
 }
-
+ /*List styling*/
 ol{
     list-style-type: upper-roman;
+    list-style-position: inside;
 }
 
 /* HEADINGS */
-h1, h2, h3{
+h1{
     color: #000099;
+    font-family: 'Oleo Script', cursive;
+    font-size: 45px;
+    font-style: oblique;
+    font-weight: 900;
+    text-align: center;
+}
 
+h2{
+    color: #000099;
+    text-align: center;
+}
+
+h3{
+    color: #000099;
+}
+
+/* Paragraph text styling*/
+p{
+    padding: 10px;
+    margin: 15px;
+    text-align: justify;
+    line-height: none;
+}
+
+/* Image block styling*/
+#image{
+    text-align: center;
+    margin: 15px;
+
+}
+
+figcaption{
+    width: 600px;
+    line-height: 20px;
+    margin: auto;
+}
+/*Styling links*/
+a:link{
+    color: #0066FF;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: #990000;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:active{
+    color: #FFFF00;
+    text-decoration: none;
 }
 
 /*Bold-face texts*/
